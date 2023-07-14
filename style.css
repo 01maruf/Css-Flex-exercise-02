@@ -1,0 +1,21 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    width: 100%;
+    height: 100vh;
+    font-size: 45px;
+}
+.container{ 
+display: flex;
+justify-content: space-between;
+border: 1vh solid skyblue;
+}
+@media (Max-width:768px) {
+    .container{ 
+        flex-direction: column;
+        align-items: center;
+        gap: 10vh;
+    }
+}
